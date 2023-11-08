@@ -1,5 +1,5 @@
-(ns invoice-spec
-  (:require [schema.core :as s]))
+
+(:require [schema.core :as s])
 
 (s/defschema ::tax
              (s/keys :req [::tax-id ::tax-category ::tax-rate]))
